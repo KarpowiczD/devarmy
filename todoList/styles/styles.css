@@ -1,0 +1,109 @@
+html {
+  height: 100%;
+  background: #141414;
+  font-size: 20px;
+}
+
+html, input {
+  font-family: 'Permanent Marker', cursive;
+  letter-spacing: 1px;
+}
+
+input[type="submit"] {
+  -webkit-appearance: button;
+}
+
+main {
+  width: 70%;
+  min-width: 300px;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10% auto 50px;
+}
+
+h1 {
+  margin: 15px;
+  color: #fff;
+}
+
+.todos-wrapper {
+  width: 100%;
+  background: #DAAB85;
+  padding: 20px;
+}
+
+.todos-wrapper form {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.todos-wrapper form input {
+  height: 2.5rem;
+  padding: 0 10px;
+  box-sizing: border-box;
+  border: 2px solid #a8a8a8;
+  border-radius: 0;
+}
+
+.todos-wrapper form input[type="text"] {
+  flex: 1 1 auto;
+  font-size: 1rem;
+}
+
+.todos-wrapper form input[type="submit"] {
+  width: 5rem;
+  border-left: 0;
+  background: #666666;
+  font-size: 1.2rem;
+}
+
+.check-list-wrapper {
+  padding: 10px 20px;
+}
+
+.check-list-wrapper h2 {
+  margin: 0 0 5px 0;
+}
+
+.check-list {  
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.check-list li {
+  display: flex;
+  margin-bottom: 3px;
+}
+
+.check-list li label {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.check-list li label input {
+  margin-right: 10px;
+}
+
+.check-list-wrapper:first-of-type {
+  background: #a8a8a8;
+}
+
+.check-list-wrapper:first-of-type li label {
+  background: #ce5656;
+}
+
+.check-list-wrapper:last-of-type {
+  background: #666666;
+}
+
+.check-list-wrapper:last-of-type li label {
+  background: #5ba353;
+}
